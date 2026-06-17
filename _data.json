@@ -1,0 +1,107 @@
+{
+ "keyword": "web3 staking",
+ "h1": "Web3 Staking",
+ "brand": "Lido",
+ "niche": "stake",
+ "verb": "Stake",
+ "title": "Web3 Staking - Open Lido App",
+ "meta_description": "web3 staking through Lido opens the official app to stake ETH, receive stETH, wrap to wstETH, check rewards, or withdraw.",
+ "palette": {
+  "mode": "light",
+  "bg": "#F2FAFF",
+  "accent": "#00A3FF",
+  "ink": "#273852"
+ },
+ "hero_h2": "Stake ETH and keep liquidity with stETH",
+ "hero_lead": "web3 staking with Lido routes ETH holders to the official app to stake, receive stETH, review rewards, wrap to wstETH, or withdraw from the protocol.",
+ "badge": "Ethereum",
+ "widget": {
+  "from": "ETH",
+  "from_net": "Ethereum",
+  "to": "stETH",
+  "to_net": "Ethereum",
+  "action": "Open Lido App"
+ },
+ "trust": [
+  "Official Lido staking app",
+  "stETH and wstETH support",
+  "DAO-governed protocol"
+ ],
+ "what_is": "Lido is a liquid staking protocol centered on Ethereum, where users can deposit ETH and receive stETH as a transferable tokenized position. The protocol mechanics are documented in the <a href='https://docs.lido.fi/guides/lido-tokens-integration-guide/'>Lido token docs</a>.",
+ "how": [
+  {
+   "t": "Connect wallet",
+   "d": "Open the official Lido app and connect a supported Ethereum wallet."
+  },
+  {
+   "t": "Choose ETH amount",
+   "d": "Enter the amount of ETH to stake and review the wallet transaction before signing."
+  },
+  {
+   "t": "Receive stETH",
+   "d": "After staking, stETH represents the ETH supplied through the Lido protocol and can be held, transferred, or wrapped."
+  },
+  {
+   "t": "Manage or withdraw",
+   "d": "Use the app to review rewards, wrap to wstETH, or start a withdrawal when needed."
+  }
+ ],
+ "points": [
+  {
+   "h": "Liquid position",
+   "p": "Staking ETH through Lido mints stETH, which represents ETH supplied to the protocol while remaining usable across supported DeFi venues."
+  },
+  {
+   "h": "Transparent contracts",
+   "p": "Core deployments are listed in the <a href='https://docs.lido.fi/deployed-contracts/'>Lido deployed contracts</a> documentation for domain and address checks."
+  },
+  {
+   "h": "Ethereum-native route",
+   "p": "Lido operates around Ethereum proof-of-stake; the base staking model is explained in the <a href='https://ethereum.org/staking/'>Ethereum staking guide</a>."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "Lido Docs",
+   "url": "https://docs.lido.fi/"
+  },
+  {
+   "text": "Ethereum staking",
+   "url": "https://ethereum.org/staking/"
+  },
+  {
+   "text": "Lido deployed contracts",
+   "url": "https://docs.lido.fi/deployed-contracts/"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is web3 staking on Lido?",
+   "a": "It is an app route for ETH holders to use Lido's liquid staking protocol and receive stETH after staking ETH through the official interface.",
+   "open": true
+  },
+  {
+   "q": "Is web3 staking with Lido custodial?",
+   "a": "Lido describes its protocol flow as non-custodial, but users still interact with smart contracts and should verify the domain, wallet permissions, and transaction details.",
+   "open": false
+  },
+  {
+   "q": "What token do I receive from web3 staking?",
+   "a": "Staking ETH through Lido returns stETH; users may also wrap stETH into wstETH for integrations that prefer static balances.",
+   "open": false
+  },
+  {
+   "q": "Can I withdraw after web3 staking?",
+   "a": "The Lido app includes a withdrawals flow; withdrawing burns stETH and follows Lido and Ethereum withdrawal queues, so timing can vary.",
+   "open": false
+  },
+  {
+   "q": "How is web3 staking different from running a validator?",
+   "a": "Running an Ethereum validator requires validator setup and operations; Lido batches user deposits through protocol validators and issues stETH to users.",
+   "open": false
+  }
+ ],
+ "official_url": "https://stake.lido.fi/",
+ "official_domain": "stake.lido.fi",
+ "footer_note": "This page is not the official Lido app; verify stake.lido.fi before connecting a wallet, and treat this as educational, not financial advice."
+}
