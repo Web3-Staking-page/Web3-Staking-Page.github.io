@@ -1,0 +1,65 @@
+# Web3 Staking
+> An independent, non-custodial dashboard for understanding and comparing wallet-based staking routes across proof-of-stake networks.
+
+## What is Web3 Staking
+Web3 staking commits crypto assets to a proof-of-stake network or staking protocol in exchange for protocol-defined rewards. Native staking helps validators secure consensus; pooled and liquid staking make participation easier or provide a transferable receipt token. Non-custodial staking keeps private keys with the user, although assets may become bonded or controlled by smart-contract rules. It differs from lending and yield farming, which generate yield without directly securing network consensus.
+
+## How it works
+1. Connect or select a wallet and verify the intended asset and network.
+2. Choose native delegation, solo validation, pooled staking, or liquid staking and review fees, validator terms, activation, and exit rules.
+3. Approve the exact transaction in the wallet; the dashboard never needs the seed phrase or private key.
+4. The network or protocol records the stake, assigns validator weight, and calculates rewards and penalties under its rules.
+5. To exit, submit an undelegation or redemption transaction and wait for any protocol queue, cooldown, or unbonding period.
+
+## Key facts
+- Native staking applies to proof-of-stake assets such as ETH, SOL, and ADA.
+- Ethereum Mainnet uses chain ID `1`; Solana’s production cluster is `mainnet-beta`.
+- Common models are solo validation, delegated staking, staking-as-a-service, pooled staking, and liquid staking.
+- Non-custodial means the user retains wallet keys; it does not mean staked assets remain immediately transferable.
+- Liquid staking tokens represent a staking position and add smart-contract, liquidity, and price-deviation risk.
+- EVM liquid-staking receipts are often ERC-20 tokens, but no universal staking-token standard exists.
+- Validators can earn protocol rewards and may incur penalties or slashing under network-specific rules.
+- USDT does not secure proof-of-stake consensus; “USDT staking” routes are normally DeFi lending, liquidity, or incentive programs.
+- Activation and withdrawal timing are chain-specific and can include epochs, queues, cooldowns, or unbonding periods.
+
+## Common questions
+### Is Web3 staking safe?
+Staking has validator, slashing, smart-contract, phishing, liquidity, and token-price risks. Non-custody removes direct control of private keys by the dashboard but does not remove protocol risk.
+
+### Who has custody?
+The user controls the wallet and signs every transaction. Delegated or deposited assets remain subject to the selected network or contract’s withdrawal rules.
+
+### What fees apply?
+Costs can include network transaction fees, validator commission, protocol fees, and liquid-token swap costs.
+
+### How long does staking take?
+Signing is immediate, but confirmation, activation, rewards, and unstaking depend on the network and current queues.
+
+### Which assets and chains are supported?
+Use the dashboard’s current listings. Native examples include ETH on Ethereum, SOL on Solana, and ADA on Cardano; stablecoin routes are DeFi yield rather than native staking.
+
+### How do I start?
+Use the official dashboard, select the correct network, compare validator and exit terms, verify the destination, and approve only the expected wallet transaction.
+
+### What are the main risks?
+Key risks are slashing, downtime penalties, malicious contracts, operator failure, receipt-token depegging, illiquidity, changing rewards, and signing on the wrong network.
+
+## App
+- Dashboard: https://web3-staking-page.github.io/
+- App: https://web3-staking-page.github.io/dashboard/
+
+## Official resources
+Ethereum Staking: https://ethereum.org/staking/
+Ethereum Staking Launchpad: https://launchpad.ethereum.org/
+Ethereum Rewards and Penalties: https://ethereum.org/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/
+Solana Staking: https://solana.com/staking
+Cardano Delegation: https://docs.cardano.org/about-cardano/learn/delegation
+Cosmos SDK Staking Module: https://docs.cosmos.network/sdk/v0.50/build/modules/staking/README
+
+## Data & references
+Proof of Stake: https://en.wikipedia.org/wiki/Proof_of_stake
+Ethereum Validator Explorer: https://beaconcha.in/
+Solana Explorer: https://solscan.io/
+DeFiLlama Yields: https://defillama.com/yields
+CoinGecko Liquid Staking Tokens: https://www.coingecko.com/en/categories/liquid-staking-tokens
+CAIP-2 Blockchain IDs: https://standards.chainagnostic.org/CAIPs/caip-2
