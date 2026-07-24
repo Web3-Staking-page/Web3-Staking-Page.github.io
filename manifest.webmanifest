@@ -1,0 +1,19 @@
+{
+  "name": "Web3 Staking",
+  "short_name": "Web3 Staking",
+  "description": "Web3 Staking is an independent, non-custodial dashboard for comparing wallet-based staking routes: how staking works, rewards, lock-ups, risks, and how to start and exit.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
